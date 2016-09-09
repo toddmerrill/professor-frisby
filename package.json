@@ -1,0 +1,20 @@
+{
+  "name": "professor-frisby",
+  "version": "1.0.0",
+  "description": "Programming exercises for the book \"Professor Frisby's Mostly Adequate Guide to Functional Programming\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@toddmerrill.softether.net:7999/nod/professor-frisby.git"
+  },
+  "keywords": [
+    "javascript",
+    "functional",
+    "book"
+  ],
+  "author": "Todd Merrill",
+  "license": "ISC"
+}
