@@ -4,7 +4,7 @@
   "description": "Programming exercises for the book \"Professor Frisby's Mostly Adequate Guide to Functional Programming\"",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/*.js"
+    "test": "mocha tests/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
     "book"
   ],
   "author": "Todd Merrill",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "ramda": "^0.22.1"
+  }
 }
