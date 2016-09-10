@@ -9,10 +9,8 @@ var match = curry(function(what, str) {
 //==============
 // Refactor to remove all arguments by partially applying the functions.
 
-var filterQs = function(xs) {
-    return _.filter(function(x) {
-        return match(/q/i, x);
-    }, xs);
-};
+var filterQs = curry(function(xs){
+    return xs.filter(match(/q/i))
+});
 
 module.exports = filterQs;
