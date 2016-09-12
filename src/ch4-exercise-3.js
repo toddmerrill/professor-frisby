@@ -10,8 +10,6 @@ var _keepHighest = function(x, y) {
 };
 
 // REFACTOR THIS ONE:
-var max = function(xs) {
-    return _.reduce(_keepHighest, -Infinity, xs);
-};
+var max = _.reduce(_keepHighest, -Infinity);
 
 module.exports = max;
