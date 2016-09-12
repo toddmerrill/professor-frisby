@@ -1,4 +1,3 @@
-// var _ = require('ramda');
 var curry = require('lodash/curry');
 
 // Bonus 1:
