@@ -1,5 +1,4 @@
 var _ = require('ramda');
-var curry = require('lodash/curry');
 
 // Exercise 3
 //==============
@@ -12,9 +11,7 @@ var _keepHighest = function(x, y) {
 
 // REFACTOR THIS ONE:
 var max = function(xs) {
-    return _.reduce(function(acc, x) {
-        return _keepHighest(acc, x);
-    }, -Infinity, xs);
+    return _.reduce(_keepHighest, -Infinity, xs);
 };
 
 module.exports = max;
