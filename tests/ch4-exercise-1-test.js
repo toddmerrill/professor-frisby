@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var words =  require('../src/ch4.exercise1');
+var words =  require('../src/ch4-exercise-1.js');
 
 describe('partial application impl', function () {
     it('parse the words of a sentence - apply the argument before', function () {
