@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var max =  require('../src/ch4-exercise-3.js');
+var max =  require('../src/ch04-exercise-3.js');
 
 describe('maximum function refactor', function () {
     it('returns the maximum int in list', function () {

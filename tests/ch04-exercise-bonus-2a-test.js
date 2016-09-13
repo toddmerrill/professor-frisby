@@ -1,6 +1,6 @@
 var assert = require('chai').assert;
 
-var take =  require('../src/ch4-exercise-bonus-2a.js');
+var take =  require('../src/ch04-exercise-bonus-2a.js');
 
 describe('a curried function "take" that removes n elements from the beginning of the string.', function () {
     it('returns characters after the first n characters', function () {
