@@ -17,6 +17,4 @@ var _average = function(xs) {
 // };
 
 // solution:
-var averageDollarValue = _.compose(_average, _.map(_.prop('dollar_value')));
-
-module.exports = averageDollarValue;
+module.exports = _.compose(_average, _.map(_.prop('dollar_value')));
