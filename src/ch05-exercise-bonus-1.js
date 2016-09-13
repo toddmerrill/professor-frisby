@@ -15,5 +15,5 @@ var accounting = require('accounting');
 
 // solution
 module.exports = _.compose(_.join(', '),
-                 _.map(_.compose(accounting.formatMoney, _.prop('dollar_value'))),
-                 _.filter(_.prop('in_stock')));
+                           _.map(_.compose(accounting.formatMoney, _.prop('dollar_value'))),
+                           _.filter(_.prop('in_stock')));
