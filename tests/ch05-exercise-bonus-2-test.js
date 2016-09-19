@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 
 var fastestCar =  require('../src/ch05-exercise-bonus-2');
 
-var CARS = require('./ch05-data');
+var CARS = require('./ch05-test-data');
 
 describe('Refactor to pointfree.', function () {
     it('returns the car with the highest horesepower', function () {
