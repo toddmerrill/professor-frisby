@@ -1,5 +1,4 @@
 require('./support-part2');
-var Task = require('data.task');
 var _ = require('ramda');
 
 // Exercise 1
