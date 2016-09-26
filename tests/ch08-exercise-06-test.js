@@ -1,5 +1,4 @@
 require('../src/support-part2');
-var Task = require('data.task');
 var assert = require('chai').assert;
 
 var login = require('../src/ch08-exercise-06');
