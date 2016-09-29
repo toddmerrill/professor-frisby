@@ -7,4 +7,14 @@ var clog = function(f,x) {
     return x;
 }
 
+// stringify and log
+var logStringify = function(tag) {
+    return clog(function (x) {
+        return tag + " " + JSON.stringify(x);
+    });
+}
+
+// log just the object without prefix
+var logObject = clog(function(x) {return x;});
+
 module.exports = _.curry(clog);
