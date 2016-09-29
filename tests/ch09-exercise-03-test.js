@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 var _ = require('ramda');
 var postComments = require('../src/ch09-exercise-03');
 
-describe("Use getPost() then pass the post's id to getComments()", function () {
+describe("Ch 09 exercise 3: Use getPost() then pass the post's id to getComments()", function () {
     it('returns a list of objects with the passed value for post_id', function(done){
         postComments(44).fork(console.log, function (res) {
             assert.equal(res.length, 2);

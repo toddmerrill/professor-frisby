@@ -13,7 +13,7 @@ var inactiveUser = {
     active: false
 }
 
-describe('Write a function that uses checkActive() and showWelcome() to ' +
+describe('Ch 08 exercise 6: Write a function that uses checkActive() and showWelcome() to ' +
          'grant access or return the error.', function () {
     it("Returns functor with welcome message or error message", function () {
         assert.deepEqual(login(activeUser), Right.of('Welcome Todd Active'))

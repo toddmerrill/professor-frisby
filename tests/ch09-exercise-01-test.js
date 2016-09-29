@@ -14,7 +14,7 @@ var user = {
     },
 };
 
-describe('Use safeProp and map/join or chain to safely get the street name when given a user', function () {
+describe('Ch 09 exercise 1: Use safeProp and map/join or chain to safely get the street name when given a user', function () {
     it('returns the street name', function () {
         assert.deepEqual(getStreet(user), Maybe.of('Walnut St'));
     });

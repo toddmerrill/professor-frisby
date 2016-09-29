@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 
 var myGetPost = require('../src/ch08-exercise-05');
 
-describe('Write a function that will getPost then toUpperCase the post\'s title. ' +
+describe('Ch 08 exercise 5: Write a function that will getPost then toUpperCase the post\'s title. ' +
          'getPost :: Int -> Task({id: Int, title: String})', function () {
     it("Uppercases the 'title' field of the object", function (done) {
 

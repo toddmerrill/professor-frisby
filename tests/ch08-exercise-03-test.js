@@ -9,7 +9,7 @@ var user = {
     name: 'Albert',
 };
 
-describe('Use safeProp and _.head to find the first initial of the user.', function () {
+describe('Ch 08 exercise 3: Use safeProp and _.head to find the first initial of the user.', function () {
     it('returns the first initial', function () {
         assert.deepEqual(safeProp(user), Maybe.of('A'));
     });

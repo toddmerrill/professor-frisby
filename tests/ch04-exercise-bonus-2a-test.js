@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 
 var take =  require('../src/ch04-exercise-bonus-2a.js');
 
-describe('a curried function "take" that removes n elements from the beginning of the string.', function () {
+describe('Ch 04 exercise bonus 2a: a curried function "take" that removes n elements from the beginning of the string.', function () {
     it('returns characters after the first n characters', function () {
         assert.equal(take(4,'Something'),'thing');
         assert.equal(take(4)('Something'),'thing');
