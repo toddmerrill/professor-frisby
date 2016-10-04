@@ -17,19 +17,16 @@ function getPost(i) {
 function getComments(i) {
     return new Task(function (rej, res) {
         setTimeout(function () {
-            console.log('calling getcomments');
             res(["This book should be illegal", "Monads are like space burritos"]);
         }, 300);
     });
 };
 
 var makeComments = _.reduce(function (acc, c) {
-    console.log('calling reduce');
     return acc + "<li>" + c + "</li>"
 }, "");
 
 var render = _.curry(function (p, cs) {
-    console.log('calling render');
     return "<div>" + p.title + "</div>" + makeComments(cs);
 });
 
