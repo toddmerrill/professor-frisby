@@ -32,6 +32,6 @@ var render = _.curry(function (p, cs) {
 
 // ex3 :: Task Error HTML
 
-var ex3 = Task.of(render).ap(getPost(44)).ap(getComments(33));
+var ex3 = liftA2(render, getPost(44), getComments(33));
 
 module.exports = ex3;
